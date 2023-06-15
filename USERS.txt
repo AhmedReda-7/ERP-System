@@ -1,0 +1,55 @@
+{
+  "email": "admin1@email.com",
+  "password": "Admin@123456",
+  "firstName": "Admin",
+  "lasttName": "1"
+}
+
+{
+  "email": "admin2@email.com",
+  "password": "Admin2@123456",
+  "firstName": "Admin",
+  "lasttName": "2"
+}
+
+
+{
+  "email": "scm@email.com",
+  "password": "Scm@123456",
+  "firstName": "Supply Chain",
+  "lasttName": "Manager"
+}
+
+{
+  "email": "hr@email.com",
+  "password": "Hr@123456",
+  "firstName": "Human Resource",
+  "lasttName": "Manager"
+}
+
+{
+  "email": "im@email.com",
+  "password": "Im@123456",
+  "firstName": "Inventory",
+  "lasttName": "Manager"
+}
+
+{
+  "email": "fms@email.com",
+  "password": "Fms@123456",
+  "firstName": "Finance",
+  "lasttName": "Manager"
+}
+{
+  "email": "bi@email.com",
+  "password": "Bi@123456",
+  "firstName": "Business",
+  "lasttName": "Intelligence"
+}
+{
+  "email": "crm@email.com",
+  "password": "Crm@123456",
+  "firstName": "CRM",
+  "lasttName": "Manager"
+}
+
