@@ -1,29 +1,39 @@
 # ERP-System
 Graduation Project
 
-For the front end-->
+## For the **Front end**-->
 we used React.js, Sass, Bootstrap, Html, Css and integration Power BI in Home Page.
 
-For the back end-->
+## For the **Back end**-->
 we used C#, Asp.net core and Typescript.
 
-For the API-->
+## For the **API**-->
 we used Axios.
 
-
+## ERP Description
 ERP is a type of software system that helps organizations automate and manage core business processes for optimal performance by providing the automation, integration, and intelligence that is essential to efficiently run all the day-to-day business operations.
 
 
 The simplest way to define ERP is to think about all the core business processes needed to run a company: finance, HR, manufacturing, supply chain, services, Invoices, and others. At its most basic level, ERP helps to efficiently manage all these processes in an integrated system  by coordinating the flow of the data between all of these business processes, providing a single source of truth (central Data-Repository)  and streamlining operations across the enterprise. 
 
+
+## ERP Components
+
 The System consists of 5 main components/modules . these modules should be able to communicate, share and access information with each other as well as they share the same Database. These modules are :
-Finance and Accounting Management  (FMS)
+Finance and Accounting Management (FMS)
 Human Resource (HR) 
 Supply Chain Management (SCM)
-Inventory Management.
+Inventory Management (IM)
 Customer Relation Management (CRM)
+Business Intelliegence (BI)
 
+## ERP Documentation
 
+## ERP Idea-Presentation
+
+## ERP Discussion-Presentation
+
+## ERP Demo
 
 Screenshot from testing the system
 
