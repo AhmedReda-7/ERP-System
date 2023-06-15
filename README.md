@@ -28,10 +28,13 @@ Customer Relation Management (CRM)
 Business Intelliegence (BI)
 
 ## ERP Documentation
+https://drive.google.com/file/d/1dmGZj_q6iyN9ceWNO_P4pJvNPfSekWnh/view?usp=drive_link
 
 ## ERP Idea-Presentation
+https://docs.google.com/presentation/d/1paJ-2Q3EIrzIfojYCSLRcGtTycB6yj_ZjNm3NgLtAyQ/edit?usp=drive_link
 
 ## ERP Discussion-Presentation
+https://docs.google.com/presentation/d/1x6uUd9KX75wSjtH1F4burRi9ZYT7hXh79l9F0oAM_mk/edit?usp=drive_link
 
 ## ERP Demo
 
