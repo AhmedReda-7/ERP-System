@@ -1,0 +1,107 @@
+.newsupply {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.newsupply .newContainer {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.newsupply .newContainer .top,
+.newsupply .newContainer .bottom {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.newsupply .newContainer .top h1,
+.newsupply .newContainer .bottom h1 {
+  color: lightgray;
+  font-size: 20px;
+}
+
+.newsupply .newContainer .top .left,
+.newsupply .newContainer .bottom .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.newsupply .newContainer .top .left img,
+.newsupply .newContainer .bottom .left img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.newsupply .newContainer .top .right,
+.newsupply .newContainer .bottom .right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.newsupply .newContainer .top .right form,
+.newsupply .newContainer .bottom .right form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.newsupply .newContainer .top .right form .formInput,
+.newsupply .newContainer .bottom .right form .formInput {
+  width: 40%;
+}
+
+.newsupply .newContainer .top .right form .formInput label,
+.newsupply .newContainer .bottom .right form .formInput label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.newsupply .newContainer .top .right form .formInput label .icon,
+.newsupply .newContainer .bottom .right form .formInput label .icon {
+  cursor: pointer;
+}
+
+.newsupply .newContainer .top .right form .formInput input,
+.newsupply .newContainer .bottom .right form .formInput input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.newsupply .newContainer .top .right form button,
+.newsupply .newContainer .bottom .right form button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=newsupplier.css.map */

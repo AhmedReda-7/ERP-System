@@ -1,0 +1,115 @@
+.app.dark {
+  background-color: #0e0e0e;
+  color: #fffbfb;
+}
+
+.app.dark .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 15px;
+}
+
+.app.dark .chartGrid {
+  stroke: rgba(228, 228, 228, 0.219);
+}
+
+.app.dark .table {
+  background-color: #111;
+}
+
+.app.dark .table .tableCell {
+  color: #fff;
+}
+
+.app.dark .navbar {
+  color: #999;
+  border-color: #333;
+}
+
+.app.dark .navbar .search {
+  border-color: #333;
+}
+
+.app.dark .sidebar {
+  background-color: #1111;
+  border-color: #333;
+}
+
+.app.dark .sidebar .top .logo {
+  color: #fff;
+}
+
+.app.dark .sidebar hr {
+  border-color: #333;
+}
+
+.app.dark .sidebar ul li:hover {
+  background-color: #333;
+}
+
+.app.dark .sidebar ul li span {
+  color: #fff;
+}
+
+.app.dark .sidebar ul li .icon {
+  color: #6439ff;
+}
+
+.app.dark .sidebar .center .title {
+  color: white;
+}
+
+.app.dark .datatable .datagrid {
+  color: #fff;
+  border: none;
+}
+
+.app.dark .datatable .datagrid .viewButton,
+.app.dark .datatable .datagrid .deleteButton,
+.app.dark .datatable .datagrid .cellWithStatus {
+  color: #fff;
+  border: none;
+}
+
+.app.dark .datatable .cellAction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.app.dark .datatable .cellAction .viewButton {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: darkblue;
+  border: 1px dotted rgba(0, 0, 139, 0.596);
+  cursor: pointer;
+}
+
+.app.dark .datatable .cellAction .deleteButton {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: crimson;
+  border: 1px dotted rgba(220, 20, 60, 0.6);
+  cursor: pointer;
+}
+
+.app.dark .datatable .cellAction .userListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.app.dark input {
+  background-color: transparent;
+}
+/*# sourceMappingURL=dark.css.map */

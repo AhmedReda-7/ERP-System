@@ -1,0 +1,55 @@
+.chart {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 5px;
+  color: white;
+  margin: 5px;
+}
+
+.chart .title {
+  margin: 25px;
+}
+
+.chart .d-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+.chart .color1 {
+  width: 15px;
+  height: 15px;
+  background-color: #003F5C;
+  margin: 5px;
+  display: inline-block;
+}
+
+.chart .color2 {
+  width: 15px;
+  height: 15px;
+  background-color: #58508D;
+  margin: 5px;
+  display: inline-block;
+}
+
+.chart .color3 {
+  width: 15px;
+  height: 15px;
+  background-color: #BC5090;
+  margin: 5px;
+  display: inline-block;
+}
+
+.chart .color4 {
+  width: 15px;
+  height: 15px;
+  background-color: #FFA600;
+  margin: 5px;
+  display: inline-block;
+}
+/*# sourceMappingURL=overviewofsales.css.map */

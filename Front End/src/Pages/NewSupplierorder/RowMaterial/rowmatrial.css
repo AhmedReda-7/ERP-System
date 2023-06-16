@@ -1,0 +1,11 @@
+ 
+      .deleteButtonrow {
+        padding: 2px 5px;
+        border-radius: 5px;
+        background-color: crimson;
+        color: white;
+        border: 1px dotted rgba(220, 20, 60, 0.6);
+        cursor: pointer;
+        font-weight: bold;
+        width: 120px;
+      }

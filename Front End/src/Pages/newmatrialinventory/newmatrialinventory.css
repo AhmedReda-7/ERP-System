@@ -1,0 +1,107 @@
+.newrawmatrialinventory {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.newrawmatrialinventory .newContainer {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.newrawmatrialinventory .newContainer .top,
+.newrawmatrialinventory .newContainer .bottom {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.newrawmatrialinventory .newContainer .top h1,
+.newrawmatrialinventory .newContainer .bottom h1 {
+  color: lightgray;
+  font-size: 20px;
+}
+
+.newrawmatrialinventory .newContainer .top .left,
+.newrawmatrialinventory .newContainer .bottom .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.newrawmatrialinventory .newContainer .top .left img,
+.newrawmatrialinventory .newContainer .bottom .left img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.newrawmatrialinventory .newContainer .top .right,
+.newrawmatrialinventory .newContainer .bottom .right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.newrawmatrialinventory .newContainer .top .right form,
+.newrawmatrialinventory .newContainer .bottom .right form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.newrawmatrialinventory .newContainer .top .right form .formInput,
+.newrawmatrialinventory .newContainer .bottom .right form .formInput {
+  width: 40%;
+}
+
+.newrawmatrialinventory .newContainer .top .right form .formInput label,
+.newrawmatrialinventory .newContainer .bottom .right form .formInput label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.newrawmatrialinventory .newContainer .top .right form .formInput label .icon,
+.newrawmatrialinventory .newContainer .bottom .right form .formInput label .icon {
+  cursor: pointer;
+}
+
+.newrawmatrialinventory .newContainer .top .right form .formInput input,
+.newrawmatrialinventory .newContainer .bottom .right form .formInput input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.newrawmatrialinventory .newContainer .top .right form button,
+.newrawmatrialinventory .newContainer .bottom .right form button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=newmatrialinventory.css.map */

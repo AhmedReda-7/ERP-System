@@ -1,0 +1,29 @@
+.userListEdit1
+{
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: blue;
+    border: 3px solid rgba(55, 58, 72, 0.306);
+    cursor: pointer;
+    font-size: 18px;
+}
+.paddorder
+{
+  padding: 7px;
+
+}
+.userListEdit2
+{
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: blue;
+    font-size: 18px;
+    border: 3px solid rgba(55, 58, 72, 0.306);
+    cursor: pointer;
+}
+h2
+{
+    color: darkblue;
+    margin-bottom: 20px;
+   
+}

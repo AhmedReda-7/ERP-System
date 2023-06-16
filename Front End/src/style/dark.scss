@@ -1,0 +1,119 @@
+.app.dark {
+  .spinner {
+    display: block;
+    position: fixed;
+    z-index: 1031;
+    top: 15px;
+    right: 15px;
+  }
+    background-color:rgb(14, 14, 14);
+    color: rgb(255, 251, 251);
+  
+    .chartGrid {
+      stroke: rgba(228, 228, 228, 0.219);
+    }
+  
+    .table {
+      background-color: #111;
+  
+      .tableCell {
+        color: #fff;
+      }
+    }
+  
+    .navbar {
+      color: #999;
+      border-color: #333;
+  
+      .search {
+        border-color: #333;
+      }
+    }
+  
+    .sidebar {
+      background-color: #1111;
+      border-color: #333;
+  
+      .top {
+        .logo {
+          color: #fff;
+        }
+      }
+      hr {
+        border-color: #333;
+      }
+  
+      ul {
+        li {
+          &:hover {
+            background-color: #333;
+          }
+          span
+          {
+            color: #fff;
+          }
+          .icon {
+            color: #6439ff
+          }
+        }
+      }
+      .center
+      {
+        .title
+        {
+            color: rgb(255, 255, 255);
+        }
+      }
+    }
+  
+    .datatable {
+      .datagrid {
+        color: #fff;
+        border: none;
+  
+        .viewButton,
+        .deleteButton,
+        .cellWithStatus {
+          color: #fff;
+          border: none;
+        }
+      }
+      .cellAction {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+  
+      .viewButton {
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: darkblue;
+        border: 1px dotted rgba(0, 0, 139, 0.596);
+        cursor: pointer;
+      }
+      
+      .deleteButton {
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: crimson;
+        border: 1px dotted rgba(220, 20, 60, 0.6);
+        cursor: pointer;
+      }
+      .userListEdit{
+        border: none;
+        border-radius: 10px;
+        padding: 5px 10px;
+        background-color: #3bb077;
+        color: white;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    
+    }
+    }
+  
+    input{
+        background-color: transparent;
+    }
+ 
+  }
+  

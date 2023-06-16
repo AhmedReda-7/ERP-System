@@ -1,0 +1,107 @@
+.NewProductinventory {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.NewProductinventory .newproductContainer {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.NewProductinventory .newproductContainer .top,
+.NewProductinventory .newproductContainer .bottom {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.NewProductinventory .newproductContainer .top h1,
+.NewProductinventory .newproductContainer .bottom h1 {
+  color: lightgray;
+  font-size: 20px;
+}
+
+.NewProductinventory .newproductContainer .top .left,
+.NewProductinventory .newproductContainer .bottom .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.NewProductinventory .newproductContainer .top .left img,
+.NewProductinventory .newproductContainer .bottom .left img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.NewProductinventory .newproductContainer .top .right,
+.NewProductinventory .newproductContainer .bottom .right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.NewProductinventory .newproductContainer .top .right form,
+.NewProductinventory .newproductContainer .bottom .right form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.NewProductinventory .newproductContainer .top .right form .formInput,
+.NewProductinventory .newproductContainer .bottom .right form .formInput {
+  width: 40%;
+}
+
+.NewProductinventory .newproductContainer .top .right form .formInput label,
+.NewProductinventory .newproductContainer .bottom .right form .formInput label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.NewProductinventory .newproductContainer .top .right form .formInput label .icon,
+.NewProductinventory .newproductContainer .bottom .right form .formInput label .icon {
+  cursor: pointer;
+}
+
+.NewProductinventory .newproductContainer .top .right form .formInput input,
+.NewProductinventory .newproductContainer .bottom .right form .formInput input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.NewProductinventory .newproductContainer .top .right form button,
+.NewProductinventory .newproductContainer .bottom .right form button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=newproductinventory.css.map */

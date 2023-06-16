@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CACV;EACE,OAAO,EAAE,GAAG;CAEb",
+    "sources": [
+        "employeeTrainView.scss"
+    ],
+    "names": [],
+    "file": "employeeTrainView.css"
+}

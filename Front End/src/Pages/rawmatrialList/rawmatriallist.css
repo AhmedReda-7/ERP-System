@@ -1,0 +1,55 @@
+.rawmatrialList{
+  flex: 4;
+}
+
+.rawmatrialListItem{
+  display: flex;
+  align-items: center;
+}
+
+.rawmatrialListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.rawmatrialListEdit{
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.rawmatrialListDelete{
+  color: red;
+  cursor: pointer;
+}
+.datatable {
+  height: 600px;
+  padding: 20px;
+}  
+  .datatableTitle{
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+    .link{
+      text-decoration: none;
+      color: green;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  

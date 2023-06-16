@@ -1,0 +1,30 @@
+.card-err {
+  position: relative;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: .25rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 500px;
+  width: 500px;
+  gap: 50px;
+  border-radius: 8px;
+  margin-top: 30px;
+
+}
+
+.card .card-header {
+  background-color: #fff;
+  border-bottom: none;
+}
+h5{
+    color: red;
+}
